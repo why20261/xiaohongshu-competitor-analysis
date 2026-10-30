@@ -1,6 +1,6 @@
 ---
 name: xiaohongshu-competitor-analysis
-description: "小红书公开数据只读技能：关键词搜笔记、爆款选题、笔记详情、评论舆情、博主作品、粉丝获赞与收藏，输出 JSON，不登录不发布。触发词：小红书、小红薯、xhs、rednote、笔记链接、博主主页、竞品分析、竞品监控、KOL筛选、舆情监控、评论分析。用户要查小红书笔记、评论、选题、竞品或舆情时使用；抖音、快手、B站、微博、公众号不要用本技能。"
+description: "小红书公开数据只读技能：关键词搜笔记、爆款选题、笔记详情、评论舆情、博主作品、粉丝获赞与收藏，输出 JSON，不登录不发布。触发词：小红薯、xhs、rednote、小红书、笔记链接、博主主页、竞品分析、竞品监控、KOL筛选、舆情监控、评论分析。用户要查小红书笔记、评论、选题、竞品或舆情时使用；抖音、快手、B站、微博、公众号不要用本技能。"
 license: MIT
 version: "1.2.0"
 category: 数据分析
@@ -93,7 +93,7 @@ metadata:
     - "只要这篇笔记近 30 天的评论 → node src/xiaohongshu/comment-cli.js --url 'https://www.xiaohongshu.com/explore/xxx' --expired_at 30 --limit 200"
 ---
 
-#  小红📕hongshu关键词搜索、竞品分析与舆情监控工具
+# 📕 小红hongshu关键词搜索、竞品分析与舆情监控工具
 
 > ✨ 给一个关键词或一条链接，拿回小红书公开笔记、评论和博主数据。不登录，不发布。结果是一份 JSON，AI 可以直接接着做选题、竞品和舆情。
 
